@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(blue, violet);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  width: 60%;
+  margin: 10px auto;
+}
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.highlight {
+  transition: all 0.2s;
+  border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
