@@ -1,9 +1,10 @@
 body {
   min-height: 100vh;
-  background-image: linear-gradient(blue, violet);
+  background-image: linear-gradient(#3A102C, #1F3442);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #d1d1c7;
 }
 .wrapper {
   width: 60%;
@@ -19,7 +20,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: red;
+  color: #fc7174;
 }
 .highlight {
   transition: all 0.2s;
@@ -32,4 +33,7 @@ a {
   border-radius: 20px;
   display: block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+p {
+  text-align: justify;
 }
